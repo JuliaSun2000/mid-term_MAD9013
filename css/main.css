@@ -1,0 +1,327 @@
+/**************************************************
+Fonts
+Droid Serif
+Droid Sans
+Droid Sans Mono
+
+Font Scaling
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1.0rem
+0.618rem
+
+Colour scheme
+
+**************************************************/
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Poppins');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family:'Poppins', Helvetica, Arial, sans-serif;
+    background-color: rgb(148, 182, 255);
+}
+/***************************
+DEFAULTS - MOBILE FIRST
+***************************/
+h1{
+    font: bold 5.2rem 'EB Garamond', Georgia, serif;
+    padding: 2rem 0;
+}
+h2{
+    font: bold 4rem 'EB Garamond', Georgia, serif;
+    padding: 1.2rem 0;
+}
+li, p, a{
+    font: bold 1.8rem 'Poppins', Helvetica, Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    padding:0 0 1rem 0;
+}
+pre, code, kbd{
+    font: normal 0.7rem 'Poppins', Helvetica, Arial, sans-serif;
+}
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+.wrapper{
+    width: 95%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    background: url("../img/head.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+nav{
+    width: 100%;
+}
+nav>ul{
+    width: 100%;
+    border: 3px solid #677aa2;
+}
+nav li{
+    width: 100%;
+    list-style: none;
+    border-bottom: 1px solid #677aa2;
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    font: bold 2rem 'Poppins', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #303a4f;
+    padding: 0.3rem 0;
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+   color: black;
+}
+main{
+    width: 100%;
+}
+.col{
+    float: none;
+    width: 100%;
+}
+.col img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: azure;
+    margin:0 0 1rem 0;
+}
+footer{
+    width: 100%;
+    padding: 2em 0;
+}
+ .footer p{
+    font-size: 0.8rem;
+    color: rgb(100, 100, 100);
+
+}
+.footer a{
+      font-size: 0.9rem;
+      color: rgb(100, 100, 100);
+      text-decoration: none;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+  .wrapper{
+    width: 100%;
+  }
+  header{
+      width: 100%;
+   }
+  nav{
+      width: 90%;
+      margin: auto;
+   }
+
+   nav>ul{
+       border: 3px solid #677aa2;
+       float:left;
+   }
+   nav li{
+   width: 20%;
+   float:left;
+   border-bottom: none;
+   }
+
+   h1{
+     font-size: 4.8rem;
+   }
+   h2{
+     font-size: 3.2rem;
+   }
+   li, p, a{
+     font-size: 1.3rem;
+   }
+   .main{
+       width: 90%;
+       margin: auto;
+   }
+   .col{
+       width: 50%;
+       float: left;
+   }
+   .col:first-child{
+       padding-right:2.2rem;
+   }
+
+   .col img{
+   width:60%;
+   float:left;
+   margin:0 1rem 0 0;
+   }
+   footer{
+       clear: both;
+       width: 90%;
+       margin: auto;
+   }
+  footer p{
+      text-align: center;
+      padding-bottom: 0;
+  }
+
+footer ul li{
+   float: left;
+   width: 33%;
+   border-top :1px solid black;
+   text-align: center;
+}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px){
+  .wrapper{
+    width: 100%;
+  }
+  header{
+      width: 100%;
+   }
+  nav{
+      width: 90%;
+      margin: auto;
+   }
+   nav>ul{
+        border: none;
+    }
+
+   nav li{
+        width: 20%;
+        float:left;
+        border-bottom: none;
+   }
+
+   h1{
+     font-size: 4.5rem;
+   }
+
+   h2{
+     font-size: 3rem;
+   }
+
+   li, p, a{
+     font-size: 1.2rem;
+   }
+   .main{
+       width: 90%;
+       margin: auto;
+   }
+   .col{
+       width: 50%;
+       float: left;
+   }
+   .col:first-child{
+       padding-right: 2.2rem;
+   }
+
+   .col img{
+   width:50%;
+   float:left;
+   margin:0 1rem 0 0;
+   }
+   footer{
+       clear: both;
+       width: 100%;
+   }
+  footer p{
+      text-align: center;
+      padding-bottom: 0;
+  }
+ footer ul li{
+     float: left;
+     width: 33%;
+     border-top:1px solid black;
+     text-align: center;
+ }
+}
+
+@media screen and (min-width: 1200px){
+  .wrapper{
+    width: 100%;
+  }
+  header{
+      width: 100%;
+   }
+    h1{
+        font-size: 4.5rem;
+    }
+
+    h2{
+     font-size: 2.6rem;
+     padding: 0.5rem 0 1rem 0;
+    }
+
+    li, p, a{
+      font-size: 1rem;
+    }
+
+    nav{
+    width: 30%;
+   }
+    nav>ul{
+        border: none;
+        float: left;
+        padding-right: 2rem;
+    }
+
+    nav li{
+    width: 100%;
+    border-bottom: 1px solid black;
+    }
+    nav a,
+    nav a:link,
+    nav a:visited{
+        text-align: left;
+        font-size: 2.5rem;
+        padding-left: 2rem;
+    }
+    .main{
+        width: 70%;
+        float: left;
+        margin: auto;
+    }
+    .col{
+        width: 50%;
+        float: left;
+        padding-right:2rem;
+    }
+
+    .col img{
+         width:55%;
+         float:left;
+         margin:0 1.2rem 0 0;
+    }
+
+    footer{
+        clear: both;
+        width: 100%;
+    }
+   footer p{
+       text-align: center;
+       padding-bottom: 0;
+  }
+  footer ul li{
+      float: left;
+      width: 33%;
+      border-top:1px solid black;
+      text-align: center;
+  }
+}
