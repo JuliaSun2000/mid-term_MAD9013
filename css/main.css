@@ -117,7 +117,7 @@ footer{
 
 }
 .footer a{
-      font-size: 0.9rem;
+      font-size: 1.4rem;
       color: rgb(100, 100, 100);
       text-decoration: none;
 }
@@ -185,6 +185,7 @@ footer ul li{
    width: 33%;
    border-top :1px solid black;
    text-align: center;
+   font-size:1.3rem;
 }
 }
 
@@ -250,6 +251,7 @@ footer ul li{
      width: 33%;
      border-top:1px solid black;
      text-align: center;
+     font-size:1rem;
  }
 }
 
@@ -323,5 +325,6 @@ footer ul li{
       width: 33%;
       border-top:1px solid black;
       text-align: center;
+      font-size:0.9rem;
   }
 }
