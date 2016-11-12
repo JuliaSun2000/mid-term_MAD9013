@@ -109,13 +109,13 @@ main{
 }
 footer{
     width: 100%;
-    padding: 2em 0;    
+    padding: 2em 0;
 }
  .footer p{
     color: rgb(100, 100, 100);
     font-size: 1.8rem;
 }
-.footer a{    
+.footer a{
       color: rgb(100, 100, 100);
       text-decoration: none;
 }
@@ -131,7 +131,6 @@ footer{
       width: 90%;
       margin: auto;
    }
-
    nav>ul{
        border: 3px solid #677aa2;
        float:left;
@@ -172,21 +171,19 @@ footer{
        clear: both;
        width: 90%;
        margin: auto;
-    
    }
-  footer p{
+  .footer p{
       text-align: center;
       padding-bottom: 0;
-      font-size:1.1rem; 
+      font-size:1.1rem;
   }
 
-footer ul li{
-   float: left;
-   width: 33%;
-   border-top :1px solid black;
-   text-align: center;
-   font-size:1.1rem;
-}
+  .footer a{
+      float: left;
+      width: 33%;
+      border-top :1px solid black;
+      font-size:0.99rem;
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1200px){
@@ -242,16 +239,17 @@ footer ul li{
        clear: both;
        width: 100%;
    }
-  footer p{
+  .footer p{
       text-align: center;
       padding-bottom: 0;
+      font-size: 1.05rem;
   }
- footer ul li{
+ .footer a{
      float: left;
      width: 33%;
      border-top:1px solid black;
      text-align: center;
-     font-size:1rem;
+     font-size:0.98rem;
  }
 }
 
@@ -316,15 +314,16 @@ footer ul li{
         clear: both;
         width: 100%;
     }
-   footer p{
+   .footer p{
        text-align: center;
        padding-bottom: 0;
-  }
-  footer ul li{
+       font-size: 1rem;
+   }
+   .footer a{
       float: left;
       width: 33%;
       border-top:1px solid black;
       text-align: center;
-      font-size:0.9rem;
-  }
+      font-size:0.95rem;
+   }
 }
